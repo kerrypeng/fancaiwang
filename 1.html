@@ -1,0 +1,336 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8"> 
+  <title>菜谱|菜谱大全|家常菜谱</title>
+  <link rel="shortcut icon" href="favicon.ico"/>
+ </head>
+ <body>
+  
+
+  <style>
+
+
+ 
+	*{
+	margin:0;
+
+	padding:0;}
+
+	.main{
+/* 组合使用 使div中的 所有元素都居中 */
+	height:50px;
+	line-height:50px;
+	background-color:#333333;
+	}
+
+	ul{
+		list-style-type:none;
+	}
+
+	li{
+
+		width:70px;
+		height:50px;
+		list-style-type:none;
+		font-size:16px;
+		float:left;
+		text-align:center;  
+		}
+	ul li a{
+		/* 去掉默认样式 */
+		text-decoration:none;
+		color:white;
+		}
+
+	.big a{ 
+		color:#CCCCCC;
+		font-family:宋体;
+		font-size:14px;
+		}
+
+	.big1 a{
+		color:#FD8712;
+		font-family:宋体;
+		font-size:14px;
+		font-weight:bold;
+	}
+
+	.icon{
+		font-size:16px;
+		line-height:20px;
+		padding:3px 0;
+		}
+
+	.icon img{
+		width:20px;
+		height:20px;
+		}
+
+	.left{
+		float:left;
+		}
+
+	.right{
+/* 布局 可换行  */
+		float:right;
+		font-family:黑体;
+		font-size:16px;
+		color:blue;
+		}
+
+
+	.nr1{
+		width:60px;
+		height:44px;
+		background-color:#59C3D1;}
+
+	.nr2{
+		width:60px;
+		height:44px;
+		background-color:#FFA859;}
+
+	.nr3{
+		width:60px;
+		height:44px;
+		background-color:#FE5761;}
+
+
+	
+	a.ex1:hover{
+/* 定义鼠标移入样式 */
+			color:#FD8712;
+		}
+
+	a.ex2:hover{
+			color:gray;}
+
+		
+/*  logo图片盒子*/
+	.box1{
+			width:960px;
+			height:80px;
+			margin:0 auto 0 auto;
+			
+			
+			}
+
+
+	.img2{
+			transform:translate(0,-10px);
+			}
+
+		/* 点击盒子菜谱 资讯 百度 */
+
+	.box2{
+			transform:translate(450px,-80px);
+			width:300px;
+			height:23px;
+			text-align:center;
+			margin-top:5px;
+			
+			}
+
+
+	.aaa{
+			
+			text-decoration:none;
+			color:white;
+			font-size:10px;
+
+	
+
+			}
+
+	.bbb{
+			text-decoration:none;
+			color:black;
+			margin:0 10px;
+			font-size:10px;
+}
+
+
+	.cc1{
+			border:1px solid #BA2020;
+			background-color:#BA2020;
+			width:50px;
+			float:left;
+			margin-right:10px;
+			
+			}
+	
+
+	.cc2{
+			border:1px solid #EEEEEE;
+			background-color:#EEEEEE;
+			width:50px;
+			float:left;
+			margin-right:10px;
+			}
+
+
+	.cc3{
+			border:1px solid #EEEEEE;
+			background-color:#EEEEEE;
+			width:50px;
+			float:left;
+			}
+
+	/* 输入框 */
+
+	.box3{
+			margin-top:5px;
+			transform:translate(450px,-80px);
+			display:flex;
+			text-align:center;
+			}
+
+	.sou{
+			text-decoration:none;
+			color:white;	
+	}
+
+	.dd1{
+			border:1px solid #BA2020;
+			background-color:#BA2020;
+			width:45px;
+			font-size:10px;
+			font-weight:bold;
+			padding-top:5px;
+			}
+
+	.fabu{
+			text-decoration:none;
+			color:white;
+			
+			}
+
+
+	.ee1:hover{
+			background-color:#BA2020;
+			}
+
+	.ee1{
+
+			transform:translate(850px,-115px);
+			border:1px solid #999999;
+			background-color:#999999;
+			width:80px;
+			height:30px;
+			}
+
+	</style>
+
+
+
+
+
+
+
+
+
+
+<div class="main">
+	<ul class="left">
+	<li class="big1"><a href="">饭菜网</a></li>
+	<li class="big"><a class="ex1" href="">菜谱</a></li>
+	<li class="big"><a class="ex1" href="">菜单</a></li>
+	<li class="big"><a class="ex1" href="">话题</a></li>
+	<li class="big"><a class="ex1" href="">烘焙</a></li>
+	<li class="big"><a class="ex1" href="">营养</a></li>
+	<li class="big"><a class="ex1" href="">养生</a></li>
+	<li class="big"><a class="ex1" href="">导航榜</a></li>
+	</ul>
+
+	<div >
+	<ul class="right">
+	<li ><a class="ex2" href="">注册</a></li>
+	<li ><a class="ex2" href="">登录</a></li>
+ 
+
+
+	<li class=" icon QQ">
+
+		<a class="ex2" href="">
+
+			<img src="images/tencent.png"/>
+			<div>QQ登录</div>
+		</a>
+
+		</li>
+	</li>
+
+	<li class="icon nr1">
+		<a class="ex2" href="">
+			<img src="images/nr1.png"/>
+			<div>发布</div>
+		</a>
+	</li>
+
+	<li class="icon nr2">
+		<a class="ex2" href="">
+			<img src="images/nr2.png"/>
+			<div>签到</div>
+		</a>
+	</li>
+
+	<li class="icon nr3">
+		<a class="ex2" href="">
+			<img src="images/nr3.png"/>
+			<div>手机端</div>
+		</a>
+	</li>
+
+	</ul>
+	</div>
+
+</div>
+
+		<div class="box1">
+		<!--  logo盒子-->
+			
+			<img src="images/logo.png"/>
+			<img class="img2" src="images/newsbg1.png"/>
+			</div>
+
+			<!--  点击盒子 -->
+
+			<div class="box2">
+				<div class="cc1">
+				<a class="aaa " href="">菜谱</a>
+				</div>
+				<div class="cc2">
+				<a class="bbb " href="">资讯</a>
+				</div>
+				<div class="cc2">
+				<a class="bbb " href="">百度</a>
+				</div>
+</div>
+
+			<!--  输入框-->
+
+				<div class="box3">
+					<form action="">
+					<input type="text" value="菜谱搜索" style="width:250px;height:30px;">
+					</form>
+
+					<div class="dd1">
+					<a class="sou" href="">搜索</a>
+					</div>
+				</div>
+
+
+			<!--  发布菜谱 -->
+					<div class="ee1">
+						<a class="fabu ex3" href="">发布菜谱</a>
+					</div>
+
+
+
+			
+
+
+			
+		</div>
+</body>
+</html>
